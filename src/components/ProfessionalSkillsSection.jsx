@@ -21,23 +21,18 @@ const ProfessionalSkillsSection = () => {
         { name: "HTML5", icon: "🌐" },
         { name: "CSS3", icon: "🎨" },
         { name: "React", icon: "⚛️" },
-        { name: "Angular", icon: "🅰️" },
-        { name: "Vue", icon: "📊" },
-        { name: "Bootstrap", icon: "🥾" },
-        { name: "Tailwind CSS", icon: "🌊" },
-        { name: "jQuery", icon: "💲" }
       ]
     },
     {
       name: "Backend & Frameworks",
       skills: [
         { name: "Node.js", icon: "🟢" },
-        { name: "Express", icon: "🚂" },
+        { name: "Express.js", icon: "🚂" },
         { name: "Django", icon: "🐍" },
-        { name: "Flask", icon: "🧪" },
         { name: "ASP.NET", icon: "🔷" },
         { name: "Laravel", icon: "🔺" },
-        { name: "Spring Boot", icon: "🍃" }
+        { name: "WordPress", icon: "📝" },
+        { name: "Angular", icon: "🅰️" }
       ]
     },
     {
@@ -47,8 +42,7 @@ const ProfessionalSkillsSection = () => {
         { name: "MongoDB", icon: "🍃" },
         { name: "PostgreSQL", icon: "🐘" },
         { name: "MS SQL Server", icon: "🔲" },
-        { name: "Firebase", icon: "🔥" },
-        { name: "Redis", icon: "🔴" }
+        { name: "Firebase", icon: "🔥" }
       ]
     },
     {

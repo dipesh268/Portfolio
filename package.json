@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dipesh268.github.io/portfolio",
+  "homepage": "https://dipesh268.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,8 +11,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

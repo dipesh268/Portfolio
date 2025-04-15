@@ -4,10 +4,10 @@ const cors = require('cors');
 const nodemailer = require('nodemailer');
 const path = require('path');
 
-// Load environment variables in non-production environments
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
-}
+  // Load environment variables in non-production environments
+  if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+  }
 
 const app = express();
 const PORT = process.env.PORT || 3001;
